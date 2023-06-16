@@ -33,7 +33,7 @@ Funzione: SELECT * FROM `degrees` WHERE `level` = 'MAGISTRALE';
 
 7. Da quanti dipartimenti è composta l'università? (12)
 
-Funzione: SELECT `id` FROM `departments`;
+Funzione: SELECT COUNT(`id`) AS 'Dipartimenti' FROM `departments`;
 
 
 8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
